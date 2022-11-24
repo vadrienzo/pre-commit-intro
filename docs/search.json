@@ -1,0 +1,9 @@
+[
+  {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "Pre-Commit Intro",
+    "section": "",
+    "text": "We use client-side hooks. In fact only Pre-Commit and Post-Commit hooks.    For the Pre-Commit hook, we use a package manager called (guess…!!!) pre-commit    A full list of different hooks you can find in GitHooks."
+  }
+]
