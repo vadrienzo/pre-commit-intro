@@ -1,0 +1,48 @@
+---
+title: Pre-Commit Intro
+# date: today
+author: Victor Diaz
+format: 
+  revealjs:
+    slide-number: true
+    logo: "img/SDF__Symbol Logo_Tan_RGB.png"
+    theme: [night, custom.scss]
+    highlight-style: github
+    # slide-number: c/t
+    toc: true
+    toc-depth: 1
+    # transition: slide
+---
+# What are Git Hooks?!
+::: {layout="[[80], [100]]"}
+[GIT Hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) are a way to fire off custom scripts when certain important actions occur. 
+
+- Two groups of these hooks: 
+    1. **Client-side**: triggered by operations such as committing and merging.
+    1. **Server-side**: hooks that run on network operations such as receiving pushed commits. 
+:::
+
+<!-- ------------------ Slide ------------------------ -->
+##
+:::{layout="[[80], [100]]"}
+
+We use **client-side** hooks. In fact only **Pre-Commit** and **Post-Commit** hooks.
+<br />
+<br />
+<br />
+For the **Pre-Commit** hook, we use a package manager called (**guess...!!!**) `pre-commit`
+<br />
+<br />
+<br />
+A full list of different hooks you can find in [GitHooks](https://www.git-scm.com/docs/githooks).
+
+:::
+
+<!-- ------------------ Slide ------------------------ -->
+# `pre-commit`
+<br />
+[pre-commit](https://pre-commit.com): It is a multi-language package manager for pre-commit hooks. You specify a list of hooks you want and pre-commit manages the installation and execution of any hook written in any language before every commit. pre-commit is specifically designed to not require root access. 
+
+<!-- ------------------ Slide ------------------------ -->
+# Hands On
+
